@@ -49,6 +49,14 @@ Parseltongue uses Webpack to bundle the extension. Follow these steps to compile
     npm run build
     ```
 
+### Build with Docker
+To use Docker for development:
+```bash
+docker build -t parseltongue .
+docker run --rm -it parseltongue
+```
+
+
 
 
 ### Load the Extension
